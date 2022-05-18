@@ -20,7 +20,7 @@ int main(){
          cin >>s[i].address;
     }
 
-cout <<"---------INFORMATION--------"<<endl;
+cout <<"----p-----INFORMATION--------"<<endl;
 cout <<"NAME \t ROLL \t ADDRESS "<<endl;
 for(i=0;i<5;++i){
     cout<<s[i].name;
