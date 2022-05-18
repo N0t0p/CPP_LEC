@@ -21,10 +21,11 @@ int main(){
     }
 
 cout <<"------INFORMATION-------"<<endl;
+cout <<"NAME \t ROLL \t ADDRESS "<<endl;
 for(i=0;i<5;++i){
-    cout<<"NAME:"<<s[i].name<<endl;
-    cout<<"ROLL:"<<s[i].roll<<endl;
-    cout<<"ADDRESS:"<<s[i].address<<endl;
+    cout<<s[i].name;
+    cout<<"\t"<<s[i].roll;
+    cout<<"\t"<<s[i].address<<endl;
 }
 return 0;
 }
