@@ -29,4 +29,4 @@ int main ()
     c2.inc_count();
     cout<<"\n c1 ="<<c1.ret_count();
     cout<<"\n c2 ="<<c2.ret_count();
-}
+ }
