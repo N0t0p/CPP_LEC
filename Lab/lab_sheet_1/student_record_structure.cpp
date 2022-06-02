@@ -21,6 +21,4 @@ int main()
     cout<<"Name = "<<s.name<<endl;
     cout<<"Address = "<<s.address<<endl;
     cout<<"Roll no = "<<s.roll;
-
-    
 }
