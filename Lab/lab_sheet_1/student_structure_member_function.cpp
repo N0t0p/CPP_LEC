@@ -19,11 +19,11 @@ struct student {
     return s1;
     }
     
-    void display(student s){
+    void display(student s2){
     cout<<"---Displaying info---"<<endl;
-    cout<<"Name = "<<s.name<<endl;
-    cout<<"Address = "<<s.address<<endl;
-    cout<<"Roll no = "<<s.roll;
+    cout<<"Name = "<<s2.name<<endl;
+    cout<<"Address = "<<s2.address<<endl;
+    cout<<"Roll no = "<<s2.roll;
 
     }
 };
