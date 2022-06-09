@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-float intr(float principle ,int time ,float rate = 15)
+float intr(float principle ,float time ,float rate = 15)
 {
     return ((principle *time *rate )/100) ;
 }
