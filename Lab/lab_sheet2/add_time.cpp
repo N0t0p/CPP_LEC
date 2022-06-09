@@ -19,22 +19,12 @@ class Time
   }
   void sum(Time time1,Time time2)
   {
-   hour = time1.hour + time2.hour;
-   minute = time1.minute + time2.minute;
    second = time1.second + time2.second;
+   minute = time1.minute + time2.minute + (second/60);
+   hour = time1.hour + time2.hour + (minute/60);
+   minute = minute%60;
+   second = second%60;
   
-   if(second>60)
-   {
-       minute = minute + 1;
-       second = second - 60 ;
-   }
-
-   if(minute>60)
-   {
-       hour = hour +1;
-       minute = minute - 60;
-   }
-
    if (hour>12)
    {
      hour = hour - 12 ;
