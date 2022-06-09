@@ -6,9 +6,7 @@ float intr(float principle ,float time ,float rate = 15)
 }
 int main()
 {
-    float principle,rate,interest;
-    int time ;
-    
+    float principle,rate,time,interest;
     cout <<"Enter the principle :"<<endl;
     cin>>principle;
     cout<<"Enter the time in year  :"<<endl;
