@@ -9,7 +9,7 @@ int main()
     float principle,rate,interest;
     int time ;
     
-    cout <<"enter the principle :"<<endl;
+    cout <<"Enter the principle :"<<endl;
     cin>>principle;
     cout<<"Enter the time in year  :"<<endl;
     cin>>time ;
