@@ -10,7 +10,7 @@ class floor1
     public:
     void getData()
     {   
-        cout<<"For first class"<<endl;
+        cout<<"For first floor"<<endl;
         cout<<"Enter the first value :- ";
         cin>>length1;
         cout<<"Enter the second value :-";
@@ -35,12 +35,8 @@ class floor2
 };
 void sum(floor1 obj1,floor2 obj2)
 {
- float a,b;
- a = obj1.length1 + obj2.length2;
- b = obj1.breadth1 + obj2.breadth2;
-
  cout<<"The sum of length of two floor is "<<obj1.length1 + obj2.length2<<endl;
- cout<<"The sum of breadth of two floor is "<<b<<endl;
+ cout<<"The sum of breadth of two floor is "<<obj1.breadth1 + obj2.breadth2<<endl;
 }
 int main()
 {
@@ -49,5 +45,4 @@ int main()
     obj1.getData();
     obj2.getData2();
     sum(obj1,obj2);
-
 }
