@@ -25,6 +25,4 @@ int main ()
     a.eat();
     a.bark();
     b.eat();
-    
-
 }

@@ -19,7 +19,6 @@ class Derived : public Base
 int main ()
 {
     Derived a;
-   
     a.print();
 
 }

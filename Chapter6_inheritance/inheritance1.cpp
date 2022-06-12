@@ -15,8 +15,8 @@ int main ()
 {
     Programmer a;
     Account b;
-    cout<<"a.salary ="<<a.salary;
-    // cout<<"a.bonus ="<<a.bonus;
-    cout<<"b.salary ="<<b.salary;
-    cout<<"b.bonus ="<<a.bonus;
+    cout<<"a.salary ="<<a.salary<<endl;
+    // cout<<"a.bonus ="<<a.bonus; Generates error base cant access child class
+    cout<<"b.salary ="<<b.salary<<endl;
+    cout<<"b.bonus ="<<a.bonus<<endl;
 }
