@@ -26,10 +26,10 @@ class leader: public student
     public:
     void getdata()
     {
-        
+        student::getdata(); 
         cout<<"Enter Name of associated student union: ";
         cin>>union_name;
-        student::getdata();
+    
     }
     void showdata()
     {

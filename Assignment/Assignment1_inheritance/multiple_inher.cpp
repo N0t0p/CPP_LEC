@@ -10,7 +10,7 @@ class student
     {
         cout<<"\n Enter Name: ";
         cin>>name;
-        cout<<"\nEnter STudent ID:";
+        cout<<"\nEnter Student ID:";
         cin>>studID;
     }
     void showdata()

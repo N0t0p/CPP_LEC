@@ -33,7 +33,7 @@ class leader: public student
     }
     void showdata()
     {
-        cout<<"\n Name: "<<name;
+        cout<<"\n Name: "<<name;          //Accessing private data directly when protected is used 
         cout<<"\n Student ID:"<<studID;
         cout<<"\n Name of associated student union: "<<union_name;
     }

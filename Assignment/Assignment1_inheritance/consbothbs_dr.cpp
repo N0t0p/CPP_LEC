@@ -5,7 +5,7 @@ class base
     public:
     base()
     {
-        cout<<"default constructor from base class"<<endl;
+        cout<<"Default constructor from base class"<<endl;
     }
 };
 class derived: public base
@@ -14,7 +14,7 @@ class derived: public base
     derived()
     {
          {
-        cout<<"default constructor from derived class"<<endl;
+        cout<<"Default constructor from derived class"<<endl;
     }
     }
 };

@@ -74,7 +74,7 @@ class result:public student,public exam
         exam::showdata();
         total=marks1+marks2+marks3;
         cout<<"\n Total Marks="<<total;
-        cout<<"\n PErcentage="<<static_cast<float>(total)/3;
+        cout<<"\n Percentage="<<static_cast<float>(total)/3;
     }
 };
 int main()
