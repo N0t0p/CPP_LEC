@@ -3,7 +3,7 @@ using namespace std;
 class Unary 
 {
     private:
-    int a = 10;
+    int a = 60;
     int b = 20;
     int c = 30;
     public :
