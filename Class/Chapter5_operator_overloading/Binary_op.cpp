@@ -40,7 +40,7 @@ int main()
     Binary b1,b2,b3;
     b1 = Binary(10,20); 
     b2 = Binary(30,40); 
-    b3 = b1 + b2;
+    b3 = b1 + b2;           //b3 = b1.operator(b2);
     b1.display();
     b2.display();
     b3.display();

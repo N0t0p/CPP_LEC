@@ -1,1 +1,1 @@
-obj2
+ cout<<"The value is c1 is  "<<real<<"+"<<imag<<"i"<<endl;
