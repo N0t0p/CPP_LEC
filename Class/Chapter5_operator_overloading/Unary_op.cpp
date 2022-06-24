@@ -11,7 +11,7 @@ class Unary
         b = 0;
         c = 0;
     }
-    void getInfo(int d,int e,int f)
+    Unary(int d,int e,int f)
     {
         a = d;
         b = e;
@@ -33,8 +33,7 @@ class Unary
 };
 int main ()
 {
-    Unary a;
-    a.getInfo(-10,20,25);
+    Unary a(10,20,25);
     a.display();
     -a;
     a.display();
