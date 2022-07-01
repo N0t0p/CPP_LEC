@@ -1,3 +1,5 @@
+// when a function is made virtual it allows the program to decide at runtime which function to call based on the 
+//    TYPE OF OBJECT POINTED BY THE POINTER rather than TYPE OF POINTER ITSELF
 #include<iostream>
 using namespace std;
 
