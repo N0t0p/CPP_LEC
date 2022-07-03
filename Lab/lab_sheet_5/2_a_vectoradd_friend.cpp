@@ -40,7 +40,7 @@ Vector a,b,c;
 a.getData();
 b.getData();
 c = a + b;
-cout<<"Sum is ";
+cout<<" The Sum is ";
 c.showData();
 }
 
