@@ -31,7 +31,7 @@ class Vector
     }
     void showData()
     {
-        cout<<x<<"i+ "<<y<<"j+ "<<z<<"k "<<endl;
+        cout<<x<<"i + "<<y<<"j + "<<z<<"k "<<endl;
     }
 };
 int main()
