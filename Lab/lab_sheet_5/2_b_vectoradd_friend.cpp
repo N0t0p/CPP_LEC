@@ -22,7 +22,8 @@ class Vector
      cout<<"Enter the z component"<<endl; 
      cin>>z;
     }
-    
+      
+
     void showData()
     {
         cout<<x<<"i + "<<y<<"j + "<<z<<"k "<<endl;
@@ -46,6 +47,6 @@ Vector a,b,c;
 a.getData();
 b.getData();
 c = a + b;
-cout<<"Sum is ";
+cout<<" The Sum is ";
 c.showData();
 }
