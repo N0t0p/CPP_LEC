@@ -8,13 +8,13 @@ void calculateArea (float a,float b,float c){
     area = sqrt(s*(s-a)*(s-b)*(s-c));
     cout<<"The area of triangle is "<<area<<endl;   
 }
-void calculateArea (float l)
+void calculateArea (float length)
 {
-    cout<<"The area of square is "<<l*l<<endl;
+    cout<<"The area of square is "<<length*length<<endl;
 }
-void calculateArea (float l , float b)
+void calculateArea (float length , float breadth)
 {
-    cout<<"The area of rectangle is "<<l*b<<endl;
+    cout<<"The area of rectangle is "<<length*breadth<<endl;
 }
 int main ()
 {
