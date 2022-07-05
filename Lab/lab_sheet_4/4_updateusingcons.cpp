@@ -45,7 +45,8 @@ class account : public virtual Person
     }
     void updateData()
     {   
-       cout<<"Payment : "<<pay<<endl;
+       cout<<"Enter the payment :"<<endl;
+        cin >> pay;
     }
 };
 class admin : public virtual Person
@@ -64,7 +65,8 @@ class admin : public virtual Person
     }
  void updateData()
     {   
-        cout<<"Experience :"<<experience<<endl;
+        cout<<"Enter your experience in years:"<<endl;
+        cin >> experience;
     }
 };
 class Master : public admin , account 
