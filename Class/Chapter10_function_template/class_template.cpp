@@ -40,7 +40,7 @@ class Calculator
 };
 int main ()
 {
-    Calculator<int> intCalc(2,1);
+    Calculator intCalc(int 2, int 1);
     Calculator<float> floatCalc(2.4,1.2);
     cout<<"Int results : "<<endl;
     intCalc.displayResult();
