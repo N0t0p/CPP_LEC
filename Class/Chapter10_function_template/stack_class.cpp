@@ -42,6 +42,6 @@ int main ()
     cout<<"Size of stack :"<<s1.size()<<endl;
 
     cout<<"Stack for floating point data type"<<endl;
-    Stack<float> s2;
+    // Stack<float> s2;
 
 }

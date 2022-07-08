@@ -41,5 +41,5 @@ int main()
     cout<<"Enter integer numbers :";
     a1.get_array();
     cout<<"Largest number is :"<<a1.find_max()<<endl;
-    cout<<"Smallesy number is :"<<a1.find_min()<<endl;
+    cout<<"Smallest number is :"<<a1.find_min()<<endl;
 }
