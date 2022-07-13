@@ -37,8 +37,8 @@ int main()
         s.push(11);
         s.push(21);
         // s.push(31);
-        cout<<"Number Popped :"<<s.pop()<<endl; 
-        cout<<"Number Popped :"<<s.pop()<<endl; 
+        // cout<<"Number Popped :"<<s.pop()<<endl; 
+        // cout<<"Number Popped :"<<s.pop()<<endl; 
         cout<<"Number Popped :"<<s.pop()<<endl; 
 }
 catch(Stack::FULL){
