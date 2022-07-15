@@ -33,9 +33,9 @@ class Student
     }
     void showData()
     {
-      cout<<"Name is "<<name;
-      cout<<"Roll is "<<roll;
-      cout<<"Marks is "<<marks;
+      cout<<"Name is "<<name<<endl;
+      cout<<"Roll is "<<roll<<endl;
+      cout<<"Marks is "<<marks<<endl;
     }
 };
 int main()
@@ -45,18 +45,16 @@ int main()
     try{
     s1.getData();
     }
-
 catch (Student::Roll)
 {   
     cout<<"Error Roll no should not be negative"<<endl;
     goto Data;
 }
 catch (Student::Marks)
-{   
-    
+{       
     cout<<"Error Marks more than full marks"<<endl;
     goto Data;
-
 }
+
 s1.showData();
 }
