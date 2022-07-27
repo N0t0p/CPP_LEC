@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int i;
-    float f = 3.142f;
+    float f = 3.142;
     char c = 'a';
     i = f;
     cout<<"value of float is : "<<f<<endl;
