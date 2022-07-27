@@ -27,13 +27,18 @@ class Time
   
    if (hour>12)
    {
-     hour = hour - 12 ;
+     hour = hour % 12 ;
    }
    
   }
   void display()
-  {
-      cout<<"The time is "<<hour<<"hr-"<<minute<<"min-"<<second<<"sec"<<endl;
+  {   
+    if (hour>12)
+      cout<<"The time is "<<hour<<"am-"<<minute<<"min-"<<second<<"sec"<<endl;
+      else
+      cout<<"The time is "<<hour<<"pm-"<<minute<<"min-"<<second<<"sec"<<endl;
+      if (hour>24)
+      cout<<"The time is "<<hour<<"am-"<<minute<<"min-"<<second<<"sec"<<endl;
   }
 };
 int main()
